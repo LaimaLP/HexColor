@@ -1,0 +1,32 @@
+body{
+background-color: gradin rgb(196, 178, 157);
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+
+.container{
+    width: 400px;
+    height: 200px;
+    border: 2px solid rgba(0, 0, 0, 0.823);
+    border-radius: 20px;
+    background-color: rgb(211, 206, 206);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 5px 20px grey;
+}
+hr{
+    width: 80%;
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    box-sizing: 10px 5px 20px rgb(12, 1, 1);
+}
